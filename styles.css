@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+section:nth-of-type(1){
+    background-image: url(img/Nebulosa1.jpg);
+    height: 600px;
+
+}
+
+section:nth-of-type(3){
+    background-image: url(img/nebulosa2.jpg);
+    height: 600px;
+
+}
+section:nth-of-type(5){
+    background-image: url(img/astronauta.jpg);
+    height: 600px;
+
+}
+section:nth-of-type(7){
+    background-image: url(img/jb.jpg);
+    height: 600px;
+
+}
+section:nth-of-type(9){
+    background-image: url(img/atmosfera.jpg);
+    height: 600px;
+    width: 100%; 
+
+}
+
+section:nth-of-type(2){
+    background-image: linear-gradient(rgb(219, 28, 44), rgb(0, 0, 165));
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+
+}
+
+section:nth-of-type(4){
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+
+}
+
+section:nth-of-type(6){
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(110, 109, 0));
+    text-align: center;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+section:nth-of-type(8){
+    background-image: linear-gradient(rgb(10, 0, 68),rgb(14, 121, 0));
+    text-align: center;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    text-align: center;
+}
